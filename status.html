@@ -1,352 +1,273 @@
 <html style="font-size: 16px;" class="scyte-responsive-xl"><head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta charset="utf-8">
-<title>AVENGER - STATUS</title>
-<meta name="description" content="Statusul serviciilor noastre.">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://scyte.ro/pages/index.css" media="screen">
-<script class="scyte-script" type="text/javascript" src="https://scyte.ro/jquery.js" defer=""></script>
-<script class="scyte-script" type="text/javascript" src="https://scyte.ro/scyte.js" defer=""></script>
-<link id="scyte-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
-<link id="scyte-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
-<meta name="theme-color" content="#00b869">
-<link rel="icon" type="image/png" href="https://scyte.ro/images/favico.png">
-<style>
-        #customers {
-        border-collapse: collapse;
-        width: 100%;
-        }
-
-        #customers td, #customers th {
-        text-align: left;
-        padding: 8px;
-        }
-
-        #customers tr:hover { background-color: #ddd;}
-
-        #customers th {
-        padding-top: 12px;
-        padding-bottom: 12px;
-        text-align: left;
-        background-color: #13d0f1;
-        color: white;
-        }
-
-      </style>
-<style type="text/css"></style><style type="text/css">.termsfeed-com---reset{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-ms-overflow-style:scrollbar;-webkit-tap-highlight-color:transparent;margin:0;font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";font-size:1rem;font-weight:400;line-height:1.5;color:#212529;text-align:left;background-color:#fff}.termsfeed-com---reset *,.termsfeed-com---reset *::before,.termsfeed-com---reset *::after{box-sizing:border-box}.termsfeed-com---reset a,.termsfeed-com---reset li,.termsfeed-com---reset p,.termsfeed-com---reset h1,.termsfeed-com---reset h2,.termsfeed-com---reset input,.termsfeed-com---reset button,.termsfeed-com---reset select{border-style:none;box-shadow:none;margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;outline:none}@-ms-viewport{.termsfeed-com---reset{width:device-width}}.termsfeed-com---reset [tabindex="-1"]:focus{outline:0 !important}.termsfeed-com---reset h1,.termsfeed-com---reset h2,.termsfeed-com---reset h3,.termsfeed-com---reset h4,.termsfeed-com---reset h5,.termsfeed-com---reset h6{margin-top:0;margin-bottom:0;color:#000}.termsfeed-com---reset p{margin-top:0;margin-bottom:1rem}.termsfeed-com---reset div{display:block}.termsfeed-com---reset ol,.termsfeed-com---reset ul,.termsfeed-com---reset dl{margin-top:0;margin-bottom:1rem}.termsfeed-com---reset ol ol,.termsfeed-com---reset ul ul,.termsfeed-com---reset ol ul,.termsfeed-com---reset ul ol{margin-bottom:0}.termsfeed-com---reset b,.termsfeed-com---reset strong{font-weight:bolder}.termsfeed-com---reset small{font-size:80%}.termsfeed-com---reset a{color:#007bff;text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects}.termsfeed-com---reset a:hover{color:#0056b3;text-decoration:underline}.termsfeed-com---reset a:not([href]):not([tabindex]){color:inherit;text-decoration:none}.termsfeed-com---reset a:not([href]):not([tabindex]):hover,.termsfeed-com---reset a:not([href]):not([tabindex]):focus{color:inherit;text-decoration:none}.termsfeed-com---reset a:not([href]):not([tabindex]):focus{outline:0}.termsfeed-com---reset label{display:inline-block;margin-bottom:0.5rem}.termsfeed-com---reset button{border-radius:2px;padding:.5rem 1rem;outline:none;background:#dcdae5;color:#111;cursor:pointer;border:none;transition:all ease .3s}.termsfeed-com---reset button:focus{outline:none}.termsfeed-com---reset select{border-style:none}.termsfeed-com---reset input,.termsfeed-com---reset button,.termsfeed-com---reset select,.termsfeed-com---reset optgroup,.termsfeed-com---reset textarea{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}.termsfeed-com---reset button,.termsfeed-com---reset input{overflow:visible}.termsfeed-com---reset button,.termsfeed-com---reset select{text-transform:none}.termsfeed-com---reset button,.termsfeed-com---reset html [type="button"],.termsfeed-com---reset [type="reset"],.termsfeed-com---reset [type="submit"]{-webkit-appearance:button}.termsfeed-com---reset button::-moz-focus-inner,.termsfeed-com---reset [type="button"]::-moz-focus-inner,.termsfeed-com---reset [type="reset"]::-moz-focus-inner,.termsfeed-com---reset [type="submit"]::-moz-focus-inner{padding:0;border-style:none}.termsfeed-com---reset input[type="radio"],.termsfeed-com---reset input[type="checkbox"]{box-sizing:border-box;padding:0}.termsfeed-com---reset [hidden]{display:none !important}
-</style><style type="text/css">.termsfeed-com---nb{overflow:auto;z-index:99999999999;font-size:16px}.termsfeed-com---nb .cc-nb-main-container{padding:3rem}.termsfeed-com---nb .cc-nb-title{font-size:24px;font-weight:600}.termsfeed-com---nb .cc-nb-text{font-size:16px;margin:0 0 1.25rem 0}.termsfeed-com---nb .cc-nb-okagree,.termsfeed-com---nb .cc-nb-reject,.termsfeed-com---nb .cc-nb-changep{font-weight:bold;font-size:14px;margin-right:0.25rem !important;margin-bottom:0.25rem !important}@media (max-width: 480px){.termsfeed-com---nb .cc-nb-okagree,.termsfeed-com---nb .cc-nb-reject,.termsfeed-com---nb .cc-nb-changep{display:block;width:100%}}.termsfeed-com---nb-headline{right:0;top:auto;bottom:0;left:0;max-width:100%;position:relative}@media (max-width: 320px), (max-height: 480px){.termsfeed-com---nb-headline{overflow:auto;height:200px;max-width:100%;right:0;top:auto;bottom:0;left:auto;position:fixed}}.termsfeed-com---nb-simple{right:0;top:auto;bottom:0;left:auto;max-width:50%;position:fixed}@media screen and (max-width: 600px){.termsfeed-com---nb-simple{max-width:80%}}@media (max-width: 320px), (max-height: 480px){.termsfeed-com---nb-simple{overflow:auto;height:200px;max-width:100%}}.termsfeed-com---nb-interstitial-overlay{position:fixed;top:0;left:0;height:100%;width:100%;background:rgba(0,0,0,0.8);z-index:9999999999}.termsfeed-com---nb-interstitial{right:3vw;top:3vh;left:3vw;max-width:100%;position:fixed}@media (max-width: 320px), (max-height: 480px){.termsfeed-com---nb-interstitial{overflow:auto;height:200px;right:0;top:auto;bottom:0;left:auto;position:fixed}}.termsfeed-com---nb-standalone{position:fixed;top:0;left:0;height:100%;width:100%}@media (max-width: 320px), (max-height: 480px){.termsfeed-com---nb-standalone{overflow:auto;height:200px;max-width:100%;right:0;top:auto;bottom:0;left:auto;position:fixed}}.termsfeed-com---pc-overlay{width:100%;height:100%;position:fixed;background:rgba(0,0,0,0.5);z-index:999999999999;top:0;left:0;display:none}@media screen and (max-width: 600px){.termsfeed-com---pc-overlay{overflow-y:scroll}}.termsfeed-com---pc-dialog{position:absolute;margin:30px auto;width:750px;max-width:90%;height:auto;left:0;right:0}.termsfeed-com---pc-dialog>div{width:100%}.termsfeed-com---pc-dialog .cc-pc-container{width:100%;display:flex;background:#fff;flex-direction:column}.termsfeed-com---pc-dialog .cc-pc-head{background:#fff;color:#111;display:flex;flex-direction:row;justify-content:space-between}@media screen and (max-width: 600px){.termsfeed-com---pc-dialog .cc-pc-head{flex-direction:column}}.termsfeed-com---pc-dialog .cc-pc-head-title{display:flex;padding-left:15px;flex-direction:column;justify-content:center;align-items:baseline}@media screen and (max-width: 600px){.termsfeed-com---pc-dialog .cc-pc-head-title{align-items:center;padding:15px 0 0 0}}.termsfeed-com---pc-dialog .cc-pc-head-title-text{font-size:16px;line-height:1.5;margin:0}.termsfeed-com---pc-dialog .cc-pc-head-title-headline{font-size:20px;font-weight:600;margin:0}.termsfeed-com---pc-dialog .cc-pc-head-lang{display:flex;align-items:center;padding-right:15px;min-height:80px;justify-content:center}@media screen and (max-width: 600px){.termsfeed-com---pc-dialog .cc-pc-head-lang{padding:15px 0;min-height:20px}}.termsfeed-com---pc-dialog .cc-pc-head-close{display:flex;align-items:center;justify-content:center;margin-left:15px}.termsfeed-com---pc-dialog .cc-cp-body{display:flex;flex-direction:row;align-items:stretch;background:#292929;color:#f5f5f5;border-bottom:none}@media screen and (max-width: 600px){.termsfeed-com---pc-dialog .cc-cp-body{flex-direction:column}}.termsfeed-com---pc-dialog .cc-cp-body-tabs{font-family:Arial, sans-serif !important;width:150px;margin:0;padding:0;background:#e6e6e6;min-width:150px}@media screen and (max-width: 600px){.termsfeed-com---pc-dialog .cc-cp-body-tabs{width:100%}}.termsfeed-com---pc-dialog .cc-cp-body-tabs-item{margin:0;padding:0;float:left;display:block;width:100%;color:#666;background:#e6e6e6;border-bottom:1px solid #ccc;border-right:1px solid #ccc;transition:all ease .1s;box-sizing:content-box}@media screen and (max-width: 600px){.termsfeed-com---pc-dialog .cc-cp-body-tabs-item{border-right:0}}.termsfeed-com---pc-dialog .cc-cp-body-tabs-item[active=true]{background:#292929;color:#f5f5f5}.termsfeed-com---pc-dialog .cc-cp-body-tabs-item-link{text-decoration:none;color:#666;display:block;padding:10px 5px 10px 10px;font-weight:700;font-size:12px;line-height:19px;position:relative}.termsfeed-com---pc-dialog .cc-cp-body-content{background:#292929;color:#f5f5f5}.termsfeed-com---pc-dialog .cc-cp-body-content-entry{width:100%;display:none;padding:25px;box-sizing:border-box}.termsfeed-com---pc-dialog .cc-cp-body-content-entry[active=true]{display:block}.termsfeed-com---pc-dialog .cc-cp-body-content-entry-title{font-size:24px;font-weight:600}.termsfeed-com---pc-dialog .cc-cp-body-content-entry-text{font-size:16px;line-height:1.5}.termsfeed-com---pc-dialog .cc-cp-foot{background:#f2f2f2;display:flex;flex-direction:row;align-items:center;border-top:1px solid #ccc;justify-content:space-between}.termsfeed-com---pc-dialog .cc-cp-foot-byline{padding:20px 10px;font-size:14px;color:#333;display:block !important}.termsfeed-com---pc-dialog .cc-cp-foot-byline a{color:#999}.termsfeed-com---pc-dialog .cc-cp-foot-save{margin-right:10px;opacity:.9;transition:all ease .3s;font-size:14px;font-weight:bold;height:auto}.termsfeed-com---pc-dialog .cc-cp-foot-save:hover{opacity:1}.termsfeed-com---pc-dialog input[type="checkbox"].cc-custom-checkbox{position:absolute;margin:2px 0 0 16px;cursor:pointer}.termsfeed-com---pc-dialog input[type="checkbox"].cc-custom-checkbox+label{position:relative;padding:4px 0 0 50px;line-height:2.0em;cursor:pointer;display:inline;font-size:14px}.termsfeed-com---pc-dialog input[type="checkbox"].cc-custom-checkbox+label:before{content:"";position:absolute;display:block;left:0;top:0;width:40px;height:24px;border-radius:16px;background:#fff;border:1px solid #d9d9d9;-webkit-transition:all 0.3s;transition:all 0.3s}.termsfeed-com---pc-dialog input[type="checkbox"].cc-custom-checkbox+label:after{content:"";position:absolute;display:block;left:0px;top:0px;width:24px;height:24px;border-radius:16px;background:#fff;border:1px solid #d9d9d9;-webkit-transition:all 0.3s;transition:all 0.3s}.termsfeed-com---pc-dialog input[type="checkbox"].cc-custom-checkbox+label:hover:after{box-shadow:0 0 5px rgba(0,0,0,0.3)}.termsfeed-com---pc-dialog input[type="checkbox"].cc-custom-checkbox:checked+label:after{margin-left:16px}.termsfeed-com---pc-dialog input[type="checkbox"].cc-custom-checkbox:checked+label:before{background:#13d0f1}
-</style><style type="text/css">.termsfeed-com---palette-dark.termsfeed-com---nb{background-color:#111;color:#fff}.termsfeed-com---palette-dark .cc-nb-title{color:#fff}.termsfeed-com---palette-dark .cc-nb-text{color:#fff}.termsfeed-com---palette-dark .cc-nb-okagree{color:#000;background-color:#ff0}.termsfeed-com---palette-dark .cc-nb-okagree:focus{box-shadow:0 0 0 2px #13d0f1}.termsfeed-com---palette-dark .cc-nb-reject{color:#000;background-color:#ff0}.termsfeed-com---palette-dark .cc-nb-reject:focus{box-shadow:0 0 0 2px #13d0f1}.termsfeed-com---palette-dark .cc-nb-changep{background-color:#eaeaea;color:#111}.termsfeed-com---palette-dark .cc-nb-changep:focus{box-shadow:0 0 0 2px #13d0f1}.termsfeed-com---palette-dark .cc-pc-container{background:#212121}.termsfeed-com---palette-dark .cc-pc-head{background:#212121;color:#fff;border-bottom:1px solid #111}.termsfeed-com---palette-dark .cc-pc-head-title-headline{color:#fff}.termsfeed-com---palette-dark .cc-pc-head-title-text{color:#fff}.termsfeed-com---palette-dark .cc-pc-head-lang select{color:#212121}.termsfeed-com---palette-dark .cc-pc-head-lang select:focus{box-shadow:0 0 0 2px #ff0}.termsfeed-com---palette-dark .cc-pc-head-close{background:none;color:#e6e6e6}.termsfeed-com---palette-dark .cc-pc-head-close:active,.termsfeed-com---palette-dark .cc-pc-head-close:focus{border:2px solid #ff0}.termsfeed-com---palette-dark .cc-cp-body{background:#292929 !important;color:#f5f5f5}.termsfeed-com---palette-dark .cc-cp-body-tabs{color:#666;background:#e6e6e6}.termsfeed-com---palette-dark .cc-cp-body-tabs-item{border-right-color:#ccc;border-bottom-color:#ccc}.termsfeed-com---palette-dark .cc-cp-body-tabs-item-link{color:#666}.termsfeed-com---palette-dark .cc-cp-body-tabs-item-link:hover{color:#666}.termsfeed-com---palette-dark .cc-cp-body-tabs-item-link:focus{box-shadow:0 0 0 2px #292929}.termsfeed-com---palette-dark .cc-cp-body-tabs-item[active=true]{background:#292929 !important}.termsfeed-com---palette-dark .cc-cp-body-tabs-item[active=true] a{color:#f5f5f5}.termsfeed-com---palette-dark .cc-cp-body-content{background:#292929 !important;color:#f5f5f5}.termsfeed-com---palette-dark .cc-cp-body-content-entry-title{color:#fff}.termsfeed-com---palette-dark .cc-cp-body-content-entry-text{color:#fff}.termsfeed-com---palette-dark .cc-cp-body-content-entry a{color:#cce5ff}.termsfeed-com---palette-dark .cc-cp-body-content-entry a:focus{box-shadow:0 0 0 2px #ff0}.termsfeed-com---palette-dark .cc-cp-foot{background:#212121;border-top-color:#111}.termsfeed-com---palette-dark .cc-cp-foot-byline{color:#fff}.termsfeed-com---palette-dark .cc-cp-foot-byline a:focus{box-shadow:0 0 0 2px #ff0}.termsfeed-com---palette-dark .cc-cp-foot-save{background:#ff0;color:#000}.termsfeed-com---palette-dark .cc-cp-foot-save:focus{box-shadow:0 0 0 2px #3dd000}
-</style><style type="text/css">.termsfeed-com---palette-light.termsfeed-com---nb{background-color:#f2f2f2;color:#111}.termsfeed-com---palette-light .cc-nb-title{color:#111}.termsfeed-com---palette-light .cc-nb-text{color:#111}.termsfeed-com---palette-light .cc-nb-okagree{color:#fff;background-color:rgb(0, 102, 128)}.termsfeed-com---palette-light .cc-nb-okagree:focus{box-shadow:0 0 0 2px #ff8d00}.termsfeed-com---palette-light .cc-nb-reject{color:#fff;background-color:#13d0f1}.termsfeed-com---palette-light .cc-nb-reject:focus{box-shadow:0 0 0 2px #ff8d00}.termsfeed-com---palette-light .cc-nb-changep{background-color:#eaeaea;color:#111}.termsfeed-com---palette-light .cc-nb-changep:focus{box-shadow:0 0 0 2px #ff8d00}.termsfeed-com---palette-light .cc-pc-container{background:#fff}.termsfeed-com---palette-light .cc-pc-head{background:#fff;color:#111;border-bottom:1px solid #ccc}.termsfeed-com---palette-light .cc-pc-head-title-headline{color:#111}.termsfeed-com---palette-light .cc-pc-head-title-text{color:#111}.termsfeed-com---palette-light .cc-pc-head-lang select{color:#111}.termsfeed-com---palette-light .cc-pc-head-lang select:focus{box-shadow:0 0 0 2px #13d0f1}.termsfeed-com---palette-light .cc-pc-head-close{background:none;color:#666}.termsfeed-com---palette-light .cc-pc-head-close:active,.termsfeed-com---palette-light .cc-pc-head-close:focus{border:2px solid #13d0f1}.termsfeed-com---palette-light .cc-cp-body{background:#fbfbfb !important;color:#111}.termsfeed-com---palette-light .cc-cp-body-tabs{color:#666;background:#e6e6e6}.termsfeed-com---palette-light .cc-cp-body-tabs-item{border-right-color:#ccc;border-bottom-color:#ccc}.termsfeed-com---palette-light .cc-cp-body-tabs-item-link{color:#666}.termsfeed-com---palette-light .cc-cp-body-tabs-item-link:hover{color:#666}.termsfeed-com---palette-light .cc-cp-body-tabs-item-link:focus{box-shadow:0 0 0 2px #fbfbfb}.termsfeed-com---palette-light .cc-cp-body-tabs-item[active=true]{background:#fbfbfb !important}.termsfeed-com---palette-light .cc-cp-body-tabs-item[active=true] a{color:#111}.termsfeed-com---palette-light .cc-cp-body-content{background:#fbfbfb !important;color:#111}.termsfeed-com---palette-light .cc-cp-body-content-entry-title{color:#111}.termsfeed-com---palette-light .cc-cp-body-content-entry-text{color:#111}.termsfeed-com---palette-light .cc-cp-body-content-entry a{color:#007bff}.termsfeed-com---palette-light .cc-cp-body-content-entry a:focus{box-shadow:0 0 0 2px #13d0f1}.termsfeed-com---palette-light .cc-cp-foot{background:#f2f2f2;border-top-color:#ccc}.termsfeed-com---palette-light .cc-cp-foot-byline{color:#111}.termsfeed-com---palette-light .cc-cp-foot-byline a:focus{box-shadow:0 0 0 2px green}.termsfeed-com---palette-light .cc-cp-foot-save{background:green;color:#fff}.termsfeed-com---palette-light .cc-cp-foot-save:focus{box-shadow:0 0 0 2px #ff8d00}
-</style><style type="text/css">.termsfeed-com---is-hidden{display:none}.termsfeed-com---is-visible{display:block}
-</style><style type="text/css">.termsfeed-com---nb.termsfeed-com---lang-ar,.termsfeed-com---pc-overlay.termsfeed-com---lang-ar{text-align:right}
-</style></head>
-<body class="scyte-body">
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/javascript"></script> <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
-<div class="middle" id="loader" style="opacity: 0; display: none;">
-<div class="animate-flicker"><a href="https://scyte.ro"><img src="https://scyte.ro/images/scyte/emblema_verde.png" width="384" height="384" id="img_loader"></a></div>
-</div>
-<div id="scyte_pg" style="display: block; opacity: 1;" class="animate-bottom">
-<header class="scyte-align-center-sm scyte-align-center-xs scyte-clearfix scyte-gradient scyte-header scyte-header" id="sec-0b53">
-<div class="scyte-clearfix scyte-sheet scyte-sheet-1">
-<a href="https://scyte.ro" class="scyte-image scyte-logo scyte-image-1 animated flipInX-played" data-image-width="555" data-image-height="190" data-animation-name="flipIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="X" style="will-change: transform; animation-duration: 1000ms;">
-<img src="https://cdn.discordapp.com/attachments/944686507980128296/945416855470882846/imageedit_1_2233584455.png" class="scyte-logo-image scyte-logo-image-1" data-image-width="194">
-</a>
-<nav data-position="" class="scyte-menu scyte-menscyte-dropdown scyte-offcanvas scyte-offcanvas-shift scyte-menscyte-1" data-responsive-from="XS">
-<div class="menscyte-collapse scyte-custom-font scyte-font-montserrat" style="font-size: 1rem; letter-spacing: 0px; text-transform: uppercase; font-weight: 700;">
-<a class="scyte-button-style scyte-custom-active-border-color scyte-custom-border scyte-custom-border-color scyte-custom-border-radius scyte-custom-borders scyte-custom-hover-border-color scyte-custom-left-right-menscyte-spacing scyte-custom-padding-bottom scyte-custom-text-active-color scyte-custom-text-color scyte-custom-text-hover-color scyte-custom-top-bottom-menscyte-spacing scyte-nav-link" href="#" style="padding: 2px 0px; font-size: calc(1em + 4px);">
-<svg>
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menscyte-hamburger"></use>
-</svg>
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<defs>
-<symbol id="menscyte-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;">
-<rect y="1" width="16" height="2"></rect>
-<rect y="7" width="16" height="2"></rect>
-<rect y="13" width="16" height="2"></rect>
-</symbol>
-</defs>
-</svg>
-</a>
-</div>
-<div class="scyte-custom-menu scyte-nav-container">
-<ul class="scyte-custom-font scyte-font-montserrat scyte-nav scyte-spacing-30 scyte-unstyled scyte-nav-1">
-<li class="scyte-nav-item"><a class="scyte-border-2 scyte-border-active-white scyte-border-hover-white scyte-border-no-left scyte-border-no-right scyte-border-no-top scyte-button-style scyte-nav-link scyte-text-active-white scyte-text-grey-90 scyte-text-hover-white" href="https://scyte.ro" style="padding: 10px 0px;">Acasă</a></li>
-<li class="scyte-nav-item">
-<a class="scyte-border-2 scyte-border-active-white scyte-border-hover-white scyte-border-no-left scyte-border-no-right scyte-border-no-top scyte-button-style scyte-nav-link scyte-text-active-white scyte-text-grey-90 scyte-text-hover-white" style="padding: 10px 0px;">Găzduire</a>
-<div class="scyte-nav-popup">
-<ul class="scyte-h-spacing-20 scyte-nav scyte-unstyled scyte-v-spacing-10 scyte-nav-2">
-<li class="scyte-nav-item"><a class="scyte-button-style scyte-nav-link scyte-white" href="https://scyte.ro/dedicated">SCYTE™ Dedicated</a></li>
-<li class="scyte-nav-item"><a class="scyte-button-style scyte-nav-link scyte-white" href="https://scyte.ro/panel">SCYTE™ Game Panel</a></li>
-<li class="scyte-nav-item"><a class="scyte-button-style scyte-nav-link scyte-white" href="https://scyte.ro/vps">SCYTE™ Virtual Servers</a></li>
-</ul>
-</div>
-</li>
-<li class="scyte-nav-item">
-<div class="scyte-nav-popup">
-<ul class="scyte-h-spacing-20 scyte-nav scyte-unstyled scyte-v-spacing-10 scyte-nav-2">
-</ul>
-</div>
-</li>
-<li class="scyte-nav-item">
-<div class="scyte-nav-popup">
-<ul class="scyte-h-spacing-20 scyte-nav scyte-unstyled scyte-v-spacing-10 scyte-nav-2">
-</ul>
-</div>
-</li>
-</ul>
-</div>
-<div class="scyte-custom-menu scyte-nav-container-collapse">
-<div class="scyte-black scyte-container-style scyte-inner-container-layout scyte-opacity scyte-opacity-95 scyte-sidenav">
-<div class="scyte-sidenav-overflow">
-<div class="scyte-menscyte-close"></div>
-<ul class="scyte-align-center scyte-nav scyte-popupmenscyte-items scyte-unstyled scyte-nav-3">
-<li class="scyte-nav-item"><a class="scyte-button-style scyte-nav-link" href="https://scyte.ro" style="padding: 10px 0px;">Acasă</a></li>
-<li class="scyte-nav-item">
-<a class="scyte-button-style scyte-nav-link" href="#" style="padding: 10px 0px;">Găzduire</a>
-<div class="scyte-nav-popup">
-<ul class="scyte-h-spacing-20 scyte-nav scyte-unstyled scyte-v-spacing-10 scyte-nav-4">
-<li class="scyte-nav-item"><a class="scyte-button-style scyte-nav-link" href="https://scyte.ro/dedicated">SCYTE™ Dedicated</a></li>
-<li class="scyte-nav-item"><a class="scyte-button-style scyte-nav-link" href="https://scyte.ro/web">SCYTE™ Web Services</a></li>
-<li class="scyte-nav-item"><a class="scyte-button-style scyte-nav-link" href="https://scyte.ro/panel">SCYTE™ Game Panel</a></li>
-<li class="scyte-nav-item"><a class="scyte-button-style scyte-nav-link" href="https://scyte.ro/vps">SCYTE™ Virtual Servers</a></li>
-</ul>
-</div>
-</li>
-<li class="scyte-nav-item">
- <div class="scyte-nav-popup">
-</ul>
-</div>
-</li>
-<li class="scyte-nav-item">
-<a class="scyte-button-style scyte-nav-link" href="#" style="padding: 10px 0px;">Support</a>
-<div class="scyte-nav-popup">
-<ul class="scyte-h-spacing-20 scyte-nav scyte-unstyled scyte-v-spacing-10 scyte-nav-4">
-<li class="scyte-nav-item"><a class="scyte-button-style scyte-nav-link" href="https://scyte.ro/discord">Discord</a></li>
-<li class="scyte-nav-item"><a class="scyte-button-style scyte-nav-link" href="tel:0775301769">0775 301 769</a></li>
-<li class="scyte-nav-item"><a class="scyte-button-style scyte-nav-link" href="https://billing.scyte.ro/submitticket.php">Deschide un tichet</a></li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-</div>
-<div class="scyte-black scyte-menscyte-overlay scyte-opacity scyte-opacity-70"></div>
-</div>
-<style class="offcanvas-style">            .scyte-offcanvas .scyte-sidenav { flex-basis: 250px !important; }            .scyte-offcanvas:not(.scyte-menscyte-open-right) .scyte-sidenav { margin-left: -250px; }            .scyte-offcanvas.scyte-menscyte-open-right .scyte-sidenav { margin-right: -250px; }            @keyframes menscyte-shift-left    { from { left: 0;        } to { left: 250px;  } }            @keyframes menscyte-unshift-left  { from { left: 250px;  } to { left: 0;        } }            @keyframes menscyte-shift-right   { from { right: 0;       } to { right: 250px; } }            @keyframes menscyte-unshift-right { from { right: 250px; } to { right: 0;       } }            </style></nav>
-</div>
-</header> <div id="info">
-<div class="container">
-<div>
-<div>
-<br><center><table id="customers" style="width: 50%">
-<tbody><tr>
-<th>Denumire</th>
-<th>Adresă URL</th>
-<th>Status</th>
-</tr>
-<tr>
-<td>AVENGER</td>
-<td><a href="https://avenger.cloud/">avenger.cloud</a></td>
-<td>Activ</td>
-</tr>
-<tr>
-<td>AVENGER Panel</td>
-<td><a href="https://panel.avenger.cloud">panel.avenger.cloud</a></td>
-<td>Inactiv</td>
-</tr>
-<tr>
-<td>AVENGER Virtual Servers</td>
-<td><a href="https://vps.avenger.cloud">vps.avenger.cloud</a></td>
-<td>Inactiv</td>
-</tr>
-<tr>
-<tr>
-<td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/300px-Flag_of_France.svg.png" width="15" height="10"> | AVENGER EU #1</td>
-<td>-</td>
-<td>Activ</td>
-</tr>
- <tr>
-<td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/300px-Flag_of_France.svg.png" width="15" height="10"> | AVENGER EU #2</td>
-<td>-</td>
-<td>Activ</td>
-</tr>
-<tr>
-<td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/300px-Flag_of_France.svg.png" width="15" height="10"> | AVENGER EU #3</td>
-<td>-</td>
-<td>Activ</td>
-</tr>
-</tr>
-</tbody></table></center>
-</div>
-</div>
-</div>
-</div>
-<center>
-<p>* informații preluate în timp real.</p>
-</center>
-<footer class="scyte-clearfix scyte-footer scyte-image scyte-footer" id="sec-3492" data-image-width="1660" data-image-height="351">
-<div class="scyte-clearfix scyte-sheet scyte-sheet-1">
-<div class="scyte-expanded-width-lg scyte-expanded-width-md scyte-expanded-width-sm scyte-expanded-width-xs scyte-list scyte-list-1">
-<div class="scyte-repeater scyte-repeater-1">
-<div class="scyte-container-style scyte-list-item scyte-repeater-item scyte-list-item-1 animated bounceIn-played" data-animation-name="bounceIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="" style="will-change: transform, opacity; animation-duration: 1000ms;">
-<div class="scyte-container-layout scyte-similar-container scyte-container-layout-1">
-<ul class="scyte-custom-font scyte-custom-list scyte-font-montserrat scyte-text scyte-text-2">
-<li>
-<div class="scyte-list-icon scyte-list-icon-1">
-</div>
-<div class="scyte-container-style scyte-list-item scyte-repeater-item scyte-list-item-2 animated bounceIn-played" data-animation-name="bounceIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="" style="will-change: transform, opacity; animation-duration: 1000ms;">
-<div class="scyte-container-layout scyte-similar-container scyte-container-layout-2">
-<ul class="scyte-custom-font scyte-custom-list scyte-font-montserrat scyte-text scyte-text-4">
-<li>
-</p><br>
-<div class="social">
-<div class="col-social">
-</div>
-</div><br>
-<center>
-<label class="switch">
-<span class="slider round"></span>
-</label>
-</center>
-<div class="scyte-list scyte-list-2">
-<div class="scyte-repeater scyte-repeater-2"></div>
-</div>
-</div>
-</footer>
-</div>
-<script type="text/javascript">
-
-function setCookie(cname, cvalue, exdays) {
-    const d = new Date();
-    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
-    let expires = "expires=" + d.toUTCString();
-    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-}
-
-function getCookie(cname) {
-    let name = cname + "=";
-    let ca = document.cookie.split(';');
-    for (let i = 0; i < ca.length; i++) {
-        let c = ca[i];
-        while (c.charAt(0) == ' ') {
-            c = c.substring(1);
-        }
-        if (c.indexOf(name) == 0) {
-            return c.substring(name.length, c.length);
-        }
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>AVENGER - STATUS</title>
+    <meta name="description" content="Statusul serviciilor noastre.">
+    <link rel="stylesheet" href="style.csssabfsabf">
+    <link rel="stylesheet" href="https://scyte.ro/pages/index.css" media="screen">
+    <script class="scyte-script" type="text/javascript" src="https://scyte.ro/jquery.js" defer=""></script>
+    <script class="scyte-script" type="text/javascript" src="https://scyte.ro/scyte.js" defer=""></script>
+    <link id="scyte-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link id="scyte-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+    <meta name="theme-color" content="#00b869">
+    <link rel="icon" type="image/png" href="https://scyte.ro/images/favico.png">
+    <style>
+            #customers {
+            border-collapse: collapse;
+            width: 100%;
+            }
+    
+            #customers td, #customers th {
+            text-align: left;
+            padding: 8px;
+            }
+    
+            #customers tr:hover { background-color: #ddd;}
+    
+            #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #13d0f1;
+            color: white;
+            }
+    
+          </style>
+    <style type="text/css"></style><style type="text/css">.termsfeed-com---reset{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-ms-overflow-style:scrollbar;-webkit-tap-highlight-color:transparent;margin:0;font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";font-size:1rem;font-weight:400;line-height:1.5;color:#212529;text-align:left;background-color:#fff}.termsfeed-com---reset *,.termsfeed-com---reset *::before,.termsfeed-com---reset *::after{box-sizing:border-box}.termsfeed-com---reset a,.termsfeed-com---reset li,.termsfeed-com---reset p,.termsfeed-com---reset h1,.termsfeed-com---reset h2,.termsfeed-com---reset input,.termsfeed-com---reset button,.termsfeed-com---reset select{border-style:none;box-shadow:none;margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;outline:none}@-ms-viewport{.termsfeed-com---reset{width:device-width}}.termsfeed-com---reset [tabindex="-1"]:focus{outline:0 !important}.termsfeed-com---reset h1,.termsfeed-com---reset h2,.termsfeed-com---reset h3,.termsfeed-com---reset h4,.termsfeed-com---reset h5,.termsfeed-com---reset h6{margin-top:0;margin-bottom:0;color:#000}.termsfeed-com---reset p{margin-top:0;margin-bottom:1rem}.termsfeed-com---reset div{display:block}.termsfeed-com---reset ol,.termsfeed-com---reset ul,.termsfeed-com---reset dl{margin-top:0;margin-bottom:1rem}.termsfeed-com---reset ol ol,.termsfeed-com---reset ul ul,.termsfeed-com---reset ol ul,.termsfeed-com---reset ul ol{margin-bottom:0}.termsfeed-com---reset b,.termsfeed-com---reset strong{font-weight:bolder}.termsfeed-com---reset small{font-size:80%}.termsfeed-com---reset a{color:#007bff;text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects}.termsfeed-com---reset a:hover{color:#0056b3;text-decoration:underline}.termsfeed-com---reset a:not([href]):not([tabindex]){color:inherit;text-decoration:none}.termsfeed-com---reset a:not([href]):not([tabindex]):hover,.termsfeed-com---reset a:not([href]):not([tabindex]):focus{color:inherit;text-decoration:none}.termsfeed-com---reset a:not([href]):not([tabindex]):focus{outline:0}.termsfeed-com---reset label{display:inline-block;margin-bottom:0.5rem}.termsfeed-com---reset button{border-radius:2px;padding:.5rem 1rem;outline:none;background:#dcdae5;color:#111;cursor:pointer;border:none;transition:all ease .3s}.termsfeed-com---reset button:focus{outline:none}.termsfeed-com---reset select{border-style:none}.termsfeed-com---reset input,.termsfeed-com---reset button,.termsfeed-com---reset select,.termsfeed-com---reset optgroup,.termsfeed-com---reset textarea{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}.termsfeed-com---reset button,.termsfeed-com---reset input{overflow:visible}.termsfeed-com---reset button,.termsfeed-com---reset select{text-transform:none}.termsfeed-com---reset button,.termsfeed-com---reset html [type="button"],.termsfeed-com---reset [type="reset"],.termsfeed-com---reset [type="submit"]{-webkit-appearance:button}.termsfeed-com---reset button::-moz-focus-inner,.termsfeed-com---reset [type="button"]::-moz-focus-inner,.termsfeed-com---reset [type="reset"]::-moz-focus-inner,.termsfeed-com---reset [type="submit"]::-moz-focus-inner{padding:0;border-style:none}.termsfeed-com---reset input[type="radio"],.termsfeed-com---reset input[type="checkbox"]{box-sizing:border-box;padding:0}.termsfeed-com---reset [hidden]{display:none !important}
+    </style><style type="text/css">.termsfeed-com---nb{overflow:auto;z-index:99999999999;font-size:16px}.termsfeed-com---nb .cc-nb-main-container{padding:3rem}.termsfeed-com---nb .cc-nb-title{font-size:24px;font-weight:600}.termsfeed-com---nb .cc-nb-text{font-size:16px;margin:0 0 1.25rem 0}.termsfeed-com---nb .cc-nb-okagree,.termsfeed-com---nb .cc-nb-reject,.termsfeed-com---nb .cc-nb-changep{font-weight:bold;font-size:14px;margin-right:0.25rem !important;margin-bottom:0.25rem !important}@media (max-width: 480px){.termsfeed-com---nb .cc-nb-okagree,.termsfeed-com---nb .cc-nb-reject,.termsfeed-com---nb .cc-nb-changep{display:block;width:100%}}.termsfeed-com---nb-headline{right:0;top:auto;bottom:0;left:0;max-width:100%;position:relative}@media (max-width: 320px), (max-height: 480px){.termsfeed-com---nb-headline{overflow:auto;height:200px;max-width:100%;right:0;top:auto;bottom:0;left:auto;position:fixed}}.termsfeed-com---nb-simple{right:0;top:auto;bottom:0;left:auto;max-width:50%;position:fixed}@media screen and (max-width: 600px){.termsfeed-com---nb-simple{max-width:80%}}@media (max-width: 320px), (max-height: 480px){.termsfeed-com---nb-simple{overflow:auto;height:200px;max-width:100%}}.termsfeed-com---nb-interstitial-overlay{position:fixed;top:0;left:0;height:100%;width:100%;background:rgba(0,0,0,0.8);z-index:9999999999}.termsfeed-com---nb-interstitial{right:3vw;top:3vh;left:3vw;max-width:100%;position:fixed}@media (max-width: 320px), (max-height: 480px){.termsfeed-com---nb-interstitial{overflow:auto;height:200px;right:0;top:auto;bottom:0;left:auto;position:fixed}}.termsfeed-com---nb-standalone{position:fixed;top:0;left:0;height:100%;width:100%}@media (max-width: 320px), (max-height: 480px){.termsfeed-com---nb-standalone{overflow:auto;height:200px;max-width:100%;right:0;top:auto;bottom:0;left:auto;position:fixed}}.termsfeed-com---pc-overlay{width:100%;height:100%;position:fixed;background:rgba(0,0,0,0.5);z-index:999999999999;top:0;left:0;display:none}@media screen and (max-width: 600px){.termsfeed-com---pc-overlay{overflow-y:scroll}}.termsfeed-com---pc-dialog{position:absolute;margin:30px auto;width:750px;max-width:90%;height:auto;left:0;right:0}.termsfeed-com---pc-dialog>div{width:100%}.termsfeed-com---pc-dialog .cc-pc-container{width:100%;display:flex;background:#fff;flex-direction:column}.termsfeed-com---pc-dialog .cc-pc-head{background:#fff;color:#111;display:flex;flex-direction:row;justify-content:space-between}@media screen and (max-width: 600px){.termsfeed-com---pc-dialog .cc-pc-head{flex-direction:column}}.termsfeed-com---pc-dialog .cc-pc-head-title{display:flex;padding-left:15px;flex-direction:column;justify-content:center;align-items:baseline}@media screen and (max-width: 600px){.termsfeed-com---pc-dialog .cc-pc-head-title{align-items:center;padding:15px 0 0 0}}.termsfeed-com---pc-dialog .cc-pc-head-title-text{font-size:16px;line-height:1.5;margin:0}.termsfeed-com---pc-dialog .cc-pc-head-title-headline{font-size:20px;font-weight:600;margin:0}.termsfeed-com---pc-dialog .cc-pc-head-lang{display:flex;align-items:center;padding-right:15px;min-height:80px;justify-content:center}@media screen and (max-width: 600px){.termsfeed-com---pc-dialog .cc-pc-head-lang{padding:15px 0;min-height:20px}}.termsfeed-com---pc-dialog .cc-pc-head-close{display:flex;align-items:center;justify-content:center;margin-left:15px}.termsfeed-com---pc-dialog .cc-cp-body{display:flex;flex-direction:row;align-items:stretch;background:#292929;color:#f5f5f5;border-bottom:none}@media screen and (max-width: 600px){.termsfeed-com---pc-dialog .cc-cp-body{flex-direction:column}}.termsfeed-com---pc-dialog .cc-cp-body-tabs{font-family:Arial, sans-serif !important;width:150px;margin:0;padding:0;background:#e6e6e6;min-width:150px}@media screen and (max-width: 600px){.termsfeed-com---pc-dialog .cc-cp-body-tabs{width:100%}}.termsfeed-com---pc-dialog .cc-cp-body-tabs-item{margin:0;padding:0;float:left;display:block;width:100%;color:#666;background:#e6e6e6;border-bottom:1px solid #ccc;border-right:1px solid #ccc;transition:all ease .1s;box-sizing:content-box}@media screen and (max-width: 600px){.termsfeed-com---pc-dialog .cc-cp-body-tabs-item{border-right:0}}.termsfeed-com---pc-dialog .cc-cp-body-tabs-item[active=true]{background:#292929;color:#f5f5f5}.termsfeed-com---pc-dialog .cc-cp-body-tabs-item-link{text-decoration:none;color:#666;display:block;padding:10px 5px 10px 10px;font-weight:700;font-size:12px;line-height:19px;position:relative}.termsfeed-com---pc-dialog .cc-cp-body-content{background:#292929;color:#f5f5f5}.termsfeed-com---pc-dialog .cc-cp-body-content-entry{width:100%;display:none;padding:25px;box-sizing:border-box}.termsfeed-com---pc-dialog .cc-cp-body-content-entry[active=true]{display:block}.termsfeed-com---pc-dialog .cc-cp-body-content-entry-title{font-size:24px;font-weight:600}.termsfeed-com---pc-dialog .cc-cp-body-content-entry-text{font-size:16px;line-height:1.5}.termsfeed-com---pc-dialog .cc-cp-foot{background:#f2f2f2;display:flex;flex-direction:row;align-items:center;border-top:1px solid #ccc;justify-content:space-between}.termsfeed-com---pc-dialog .cc-cp-foot-byline{padding:20px 10px;font-size:14px;color:#333;display:block !important}.termsfeed-com---pc-dialog .cc-cp-foot-byline a{color:#999}.termsfeed-com---pc-dialog .cc-cp-foot-save{margin-right:10px;opacity:.9;transition:all ease .3s;font-size:14px;font-weight:bold;height:auto}.termsfeed-com---pc-dialog .cc-cp-foot-save:hover{opacity:1}.termsfeed-com---pc-dialog input[type="checkbox"].cc-custom-checkbox{position:absolute;margin:2px 0 0 16px;cursor:pointer}.termsfeed-com---pc-dialog input[type="checkbox"].cc-custom-checkbox+label{position:relative;padding:4px 0 0 50px;line-height:2.0em;cursor:pointer;display:inline;font-size:14px}.termsfeed-com---pc-dialog input[type="checkbox"].cc-custom-checkbox+label:before{content:"";position:absolute;display:block;left:0;top:0;width:40px;height:24px;border-radius:16px;background:#fff;border:1px solid #d9d9d9;-webkit-transition:all 0.3s;transition:all 0.3s}.termsfeed-com---pc-dialog input[type="checkbox"].cc-custom-checkbox+label:after{content:"";position:absolute;display:block;left:0px;top:0px;width:24px;height:24px;border-radius:16px;background:#fff;border:1px solid #d9d9d9;-webkit-transition:all 0.3s;transition:all 0.3s}.termsfeed-com---pc-dialog input[type="checkbox"].cc-custom-checkbox+label:hover:after{box-shadow:0 0 5px rgba(0,0,0,0.3)}.termsfeed-com---pc-dialog input[type="checkbox"].cc-custom-checkbox:checked+label:after{margin-left:16px}.termsfeed-com---pc-dialog input[type="checkbox"].cc-custom-checkbox:checked+label:before{background:#13d0f1}
+    </style><style type="text/css">.termsfeed-com---palette-dark.termsfeed-com---nb{background-color:#111;color:#fff}.termsfeed-com---palette-dark .cc-nb-title{color:#fff}.termsfeed-com---palette-dark .cc-nb-text{color:#fff}.termsfeed-com---palette-dark .cc-nb-okagree{color:#000;background-color:#ff0}.termsfeed-com---palette-dark .cc-nb-okagree:focus{box-shadow:0 0 0 2px #13d0f1}.termsfeed-com---palette-dark .cc-nb-reject{color:#000;background-color:#ff0}.termsfeed-com---palette-dark .cc-nb-reject:focus{box-shadow:0 0 0 2px #13d0f1}.termsfeed-com---palette-dark .cc-nb-changep{background-color:#eaeaea;color:#111}.termsfeed-com---palette-dark .cc-nb-changep:focus{box-shadow:0 0 0 2px #13d0f1}.termsfeed-com---palette-dark .cc-pc-container{background:#212121}.termsfeed-com---palette-dark .cc-pc-head{background:#212121;color:#fff;border-bottom:1px solid #111}.termsfeed-com---palette-dark .cc-pc-head-title-headline{color:#fff}.termsfeed-com---palette-dark .cc-pc-head-title-text{color:#fff}.termsfeed-com---palette-dark .cc-pc-head-lang select{color:#212121}.termsfeed-com---palette-dark .cc-pc-head-lang select:focus{box-shadow:0 0 0 2px #ff0}.termsfeed-com---palette-dark .cc-pc-head-close{background:none;color:#e6e6e6}.termsfeed-com---palette-dark .cc-pc-head-close:active,.termsfeed-com---palette-dark .cc-pc-head-close:focus{border:2px solid #ff0}.termsfeed-com---palette-dark .cc-cp-body{background:#292929 !important;color:#f5f5f5}.termsfeed-com---palette-dark .cc-cp-body-tabs{color:#666;background:#e6e6e6}.termsfeed-com---palette-dark .cc-cp-body-tabs-item{border-right-color:#ccc;border-bottom-color:#ccc}.termsfeed-com---palette-dark .cc-cp-body-tabs-item-link{color:#666}.termsfeed-com---palette-dark .cc-cp-body-tabs-item-link:hover{color:#666}.termsfeed-com---palette-dark .cc-cp-body-tabs-item-link:focus{box-shadow:0 0 0 2px #292929}.termsfeed-com---palette-dark .cc-cp-body-tabs-item[active=true]{background:#292929 !important}.termsfeed-com---palette-dark .cc-cp-body-tabs-item[active=true] a{color:#f5f5f5}.termsfeed-com---palette-dark .cc-cp-body-content{background:#292929 !important;color:#f5f5f5}.termsfeed-com---palette-dark .cc-cp-body-content-entry-title{color:#fff}.termsfeed-com---palette-dark .cc-cp-body-content-entry-text{color:#fff}.termsfeed-com---palette-dark .cc-cp-body-content-entry a{color:#cce5ff}.termsfeed-com---palette-dark .cc-cp-body-content-entry a:focus{box-shadow:0 0 0 2px #ff0}.termsfeed-com---palette-dark .cc-cp-foot{background:#212121;border-top-color:#111}.termsfeed-com---palette-dark .cc-cp-foot-byline{color:#fff}.termsfeed-com---palette-dark .cc-cp-foot-byline a:focus{box-shadow:0 0 0 2px #ff0}.termsfeed-com---palette-dark .cc-cp-foot-save{background:#ff0;color:#000}.termsfeed-com---palette-dark .cc-cp-foot-save:focus{box-shadow:0 0 0 2px #3dd000}
+    </style><style type="text/css">.termsfeed-com---palette-light.termsfeed-com---nb{background-color:#f2f2f2;color:#111}.termsfeed-com---palette-light .cc-nb-title{color:#111}.termsfeed-com---palette-light .cc-nb-text{color:#111}.termsfeed-com---palette-light .cc-nb-okagree{color:#fff;background-color:rgb(0, 102, 128)}.termsfeed-com---palette-light .cc-nb-okagree:focus{box-shadow:0 0 0 2px #ff8d00}.termsfeed-com---palette-light .cc-nb-reject{color:#fff;background-color:#13d0f1}.termsfeed-com---palette-light .cc-nb-reject:focus{box-shadow:0 0 0 2px #ff8d00}.termsfeed-com---palette-light .cc-nb-changep{background-color:#eaeaea;color:#111}.termsfeed-com---palette-light .cc-nb-changep:focus{box-shadow:0 0 0 2px #ff8d00}.termsfeed-com---palette-light .cc-pc-container{background:#fff}.termsfeed-com---palette-light .cc-pc-head{background:#fff;color:#111;border-bottom:1px solid #ccc}.termsfeed-com---palette-light .cc-pc-head-title-headline{color:#111}.termsfeed-com---palette-light .cc-pc-head-title-text{color:#111}.termsfeed-com---palette-light .cc-pc-head-lang select{color:#111}.termsfeed-com---palette-light .cc-pc-head-lang select:focus{box-shadow:0 0 0 2px #13d0f1}.termsfeed-com---palette-light .cc-pc-head-close{background:none;color:#666}.termsfeed-com---palette-light .cc-pc-head-close:active,.termsfeed-com---palette-light .cc-pc-head-close:focus{border:2px solid #13d0f1}.termsfeed-com---palette-light .cc-cp-body{background:#fbfbfb !important;color:#111}.termsfeed-com---palette-light .cc-cp-body-tabs{color:#666;background:#e6e6e6}.termsfeed-com---palette-light .cc-cp-body-tabs-item{border-right-color:#ccc;border-bottom-color:#ccc}.termsfeed-com---palette-light .cc-cp-body-tabs-item-link{color:#666}.termsfeed-com---palette-light .cc-cp-body-tabs-item-link:hover{color:#666}.termsfeed-com---palette-light .cc-cp-body-tabs-item-link:focus{box-shadow:0 0 0 2px #fbfbfb}.termsfeed-com---palette-light .cc-cp-body-tabs-item[active=true]{background:#fbfbfb !important}.termsfeed-com---palette-light .cc-cp-body-tabs-item[active=true] a{color:#111}.termsfeed-com---palette-light .cc-cp-body-content{background:#fbfbfb !important;color:#111}.termsfeed-com---palette-light .cc-cp-body-content-entry-title{color:#111}.termsfeed-com---palette-light .cc-cp-body-content-entry-text{color:#111}.termsfeed-com---palette-light .cc-cp-body-content-entry a{color:#007bff}.termsfeed-com---palette-light .cc-cp-body-content-entry a:focus{box-shadow:0 0 0 2px #13d0f1}.termsfeed-com---palette-light .cc-cp-foot{background:#f2f2f2;border-top-color:#ccc}.termsfeed-com---palette-light .cc-cp-foot-byline{color:#111}.termsfeed-com---palette-light .cc-cp-foot-byline a:focus{box-shadow:0 0 0 2px green}.termsfeed-com---palette-light .cc-cp-foot-save{background:green;color:#fff}.termsfeed-com---palette-light .cc-cp-foot-save:focus{box-shadow:0 0 0 2px #ff8d00}
+    </style><style type="text/css">.termsfeed-com---is-hidden{display:none}.termsfeed-com---is-visible{display:block}
+    </style><style type="text/css">.termsfeed-com---nb.termsfeed-com---lang-ar,.termsfeed-com---pc-overlay.termsfeed-com---lang-ar{text-align:right}
+    </style></head>
+    <body class="scyte-body">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/javascript"></script> <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <div class="middle" id="loader" style="opacity: 0; display: none;">
+    <div class="animate-flicker"><a href="https://scyte.ro"><img src="https://scyte.ro/images/scyte/emblema_verde.png" width="384" height="384" id="img_loader"></a></div>
+    </div>
+    </symbol>
+    </defs>
+    </svg>
+    </a>
+    </div>
+    <div class="scyte-custom-menu scyte-nav-container">
+    <ul class="scyte-custom-font scyte-font-montserrat scyte-nav scyte-spacing-30 scyte-unstyled scyte-nav-1">
+    
+    </ul>
+    </div>
+    </li>
+    </ul>
+    </div>
+    </li>
+    </ul>
+    </div>
+    </li>
+    </ul>
+    </div>
+    </div>
+    <div class="scyte-black scyte-menscyte-overlay scyte-opacity scyte-opacity-70"></div>
+    </div>
+    <style class="offcanvas-style">            .scyte-offcanvas .scyte-sidenav { flex-basis: 250px !important; }            .scyte-offcanvas:not(.scyte-menscyte-open-right) .scyte-sidenav { margin-left: -250px; }            .scyte-offcanvas.scyte-menscyte-open-right .scyte-sidenav { margin-right: -250px; }            @keyframes menscyte-shift-left    { from { left: 0;        } to { left: 250px;  } }            @keyframes menscyte-unshift-left  { from { left: 250px;  } to { left: 0;        } }            @keyframes menscyte-shift-right   { from { right: 0;       } to { right: 250px; } }            @keyframes menscyte-unshift-right { from { right: 250px; } to { right: 0;       } }            </style></nav>
+    </div>
+    </header> <div id="info">
+    <div class="container">
+    <div>
+    <div>
+    <br><center><table id="customers" style="width: 50%">
+    <tbody><tr>
+    <th>Denumire</th>
+    <th>Adresă URL</th>
+    <th>Status</th>
+    </tr>
+    <tr>
+    <td>AVENGER</td>
+    <td><a href="https://avenger.cloud/">avenger.cloud</a></td>
+    <td>Activ</td>
+    </tr>
+    <tr>
+    <td>AVENGER Panel</td>
+    <td><a href="https://panel.avenger.cloud">panel.avenger.cloud</a></td>
+    <td>Inactiv</td>
+    </tr>
+    <tr>
+    <td>AVENGER Virtual Servers</td>
+    <td><a href="https://vps.avenger.cloud">vps.avenger.cloud</a></td>
+    <td>Inactiv</td>
+    </tr>
+    <tr>
+    <tr>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/300px-Flag_of_France.svg.png" width="15" height="10"> | AVENGER EU #1</td>
+    <td>-</td>
+    <td>Activ</td>
+    </tr>
+     <tr>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/300px-Flag_of_France.svg.png" width="15" height="10"> | AVENGER EU #2</td>
+    <td>-</td>
+    <td>Activ</td>
+    </tr>
+    <tr>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/300px-Flag_of_France.svg.png" width="15" height="10"> | AVENGER EU #3</td>
+    <td>-</td>
+    <td>Activ</td>
+    </tr>
+    </tr>
+    </tbody></table></center>
+    </div>
+    </div>
+    </div>
+    </div>
+    <center>
+    <p>* informații preluate în timp real.</p>
+    </center>
+    <footer class="scyte-clearfix scyte-footer scyte-image scyte-footer" id="sec-3492" data-image-width="1660" data-image-height="351">
+    <div class="scyte-clearfix scyte-sheet scyte-sheet-1">
+    </div>
+    </div><br>
+    <center>
+    <label class="switch">
+    <span class="slider round"></span>
+    </label>
+    </center>
+    <div class="scyte-list scyte-list-2">
+    <div class="scyte-repeater scyte-repeater-2"></div>
+    </div>
+    </div>
+    </footer>
+    </div>
+    <script type="text/javascript">
+    
+    function setCookie(cname, cvalue, exdays) {
+        const d = new Date();
+        d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+        let expires = "expires=" + d.toUTCString();
+        document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
     }
-    return "";
-}
-
-var url = window.location.href;
-if (url.search("vision") != -1) {
-   document.getElementById("img_loader").src = "https://cdn.scyte.ro/images/vision/vision.png";
-   document.getElementById("img_loader").style.width = "256px";
-   document.getElementById("img_loader").style.height = "256px";
-}
-
-if(url.search("dedicated") != -1) {
-   if (getCookie("theme") == "dark") {
-      document.getElementById("img_loader").src = "https://scyte.ro/images/sc_b.png";
-   }else{
-      document.getElementById("img_loader").src = "https://scyte.ro/images/sc_w.png";
-   }
-   document.getElementById("img_loader").style.width = "372px";
-   document.getElementById("img_loader").style.height = "184px";
-}
-
-var myVar;
-$(document).ready(function() {
-    scyte_load();
-});
-
-function scyte_load() {
-    myVar = setTimeout(showPage, 1500);
-}
-
-function showPage() {
-    $("#loader").fadeTo("slow", 0, function() {
-        document.getElementById("loader").style.display = "none";
-        document.getElementById("scyte_pg").style.display = "block";
-        $("#scyte_pg").fadeTo("slow", 1);
-
-        var acasa = document.getElementById("home");
-        if(acasa){
-         // var audio = new Audio('https://scyte.ro/sounds/scyte.mp4');
-         // audio.play();
+    
+    function getCookie(cname) {
+        let name = cname + "=";
+        let ca = document.cookie.split(';');
+        for (let i = 0; i < ca.length; i++) {
+            let c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
         }
-
-        var isSubpage = window.location.pathname.indexOf("subpage") >= 0;
-        $(document).ready(function() {
-            var element = window.location.hash;
-            scrollToElement(element);
-
-            $('.anchor-links').click(function(event) {
-                if (isSubpage) {
-                    event.preventDefault()
-                    var element = $(this).attr('id').split('-');
-
-                    if (element[0] == 'download') {
-                        $("html, body").animate({
-                            scrollTop: 0
-                        });
-                    } else {
-                        scrollToElement('#' + element[0]);
-                    }
-                }
-            });
-        });
-
-        function scrollToElement(element) {
-            if ($(element) && $(element).offset())
-                $('html,body').animate({
-                    scrollTop: $(element).offset().top - 80
-                });
-        }
+        return "";
+    }
+    
+    var url = window.location.href;
+    if (url.search("vision") != -1) {
+       document.getElementById("img_loader").src = "https://cdn.scyte.ro/images/vision/vision.png";
+       document.getElementById("img_loader").style.width = "256px";
+       document.getElementById("img_loader").style.height = "256px";
+    }
+    
+    if(url.search("dedicated") != -1) {
+       if (getCookie("theme") == "dark") {
+          document.getElementById("img_loader").src = "https://scyte.ro/images/sc_b.png";
+       }else{
+          document.getElementById("img_loader").src = "https://scyte.ro/images/sc_w.png";
+       }
+       document.getElementById("img_loader").style.width = "372px";
+       document.getElementById("img_loader").style.height = "184px";
+    }
+    
+    var myVar;
+    $(document).ready(function() {
+        scyte_load();
     });
-}
-
-var checkbox = document.getElementById("checkbox")
-
-if (getCookie("theme") == "dark") {
-    checkbox.checked = true;
-
-    var head = document.getElementsByTagName('head')[0];
-    var link = document.createElement('link');
-    link.id = 123;
-    link.rel = 'stylesheet';
-    link.type = 'text/css';
-    link.href = 'https://scyte.ro/dark-theme/www/style.css';
-    link.media = 'all';
-    head.appendChild(link);
-
-    var header_img = document.getElementById("fetching_headerimg");
-    if (header_img) {
-        header_img.src = "https://scyte.ro/images/dark_image.png";
+    
+    function scyte_load() {
+        myVar = setTimeout(showPage, 1500);
     }
-
-    var header_img = document.getElementById("combatix");
-    if (header_img) {
-        header_img.src = "https://scyte.ro/images/sc_b.png";
+    
+    function showPage() {
+        $("#loader").fadeTo("slow", 0, function() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("scyte_pg").style.display = "block";
+            $("#scyte_pg").fadeTo("slow", 1);
+    
+            var acasa = document.getElementById("home");
+            if(acasa){
+             // var audio = new Audio('https://scyte.ro/sounds/scyte.mp4');
+             // audio.play();
+            }
+    
+            var isSubpage = window.location.pathname.indexOf("subpage") >= 0;
+            $(document).ready(function() {
+                var element = window.location.hash;
+                scrollToElement(element);
+    
+                $('.anchor-links').click(function(event) {
+                    if (isSubpage) {
+                        event.preventDefault()
+                        var element = $(this).attr('id').split('-');
+    
+                        if (element[0] == 'download') {
+                            $("html, body").animate({
+                                scrollTop: 0
+                            });
+                        } else {
+                            scrollToElement('#' + element[0]);
+                        }
+                    }
+                });
+            });
+    
+            function scrollToElement(element) {
+                if ($(element) && $(element).offset())
+                    $('html,body').animate({
+                        scrollTop: $(element).offset().top - 80
+                    });
+            }
+        });
     }
-}
-
-function theme_manager() {
-    if (checkbox.checked == true) {
-        setCookie("theme", "dark", 365);
-    } else {
-        setCookie("theme", "white", 365);
+    
+    var checkbox = document.getElementById("checkbox")
+    
+    if (getCookie("theme") == "dark") {
+        checkbox.checked = true;
+    
+        var head = document.getElementsByTagName('head')[0];
+        var link = document.createElement('link');
+        link.id = 123;
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://scyte.ro/dark-theme/www/style.css';
+        link.media = 'all';
+        head.appendChild(link);
+    
+        var header_img = document.getElementById("fetching_headerimg");
+        if (header_img) {
+            header_img.src = "https://scyte.ro/images/dark_image.png";
+        }
+    
+        var header_img = document.getElementById("combatix");
+        if (header_img) {
+            header_img.src = "https://scyte.ro/images/sc_b.png";
+        }
     }
-    setTimeout(() => {
-        location.reload();
-    }, 1000);
-}
-</script>
-<script type="text/javascript" src="//www.termsfeed.com/public/cookie-consent/4.0.0/cookie-consent.js" charset="UTF-8"></script>
-<script type="text/javascript" charset="UTF-8">
-document.addEventListener('DOMContentLoaded', function () {
-cookieconsent.run({"notice_banner_type":"interstitial","consent_type":"implied","palette":"light","language":"ro","page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],"notice_banner_reject_button_hide":false,"preferences_center_close_button_hide":false,"website_name":"SCYTE Technologies","open_preferences_center_selector":"#open_scyte","website_privacy_policy_url":"https://scyte.ro/terms"});
-});
-</script> 
-<style type="text/css">.txt-rotate > .wrap { border-right: 0.08em solid #666 }</style></body></html>
+    
+    function theme_manager() {
+        if (checkbox.checked == true) {
+            setCookie("theme", "dark", 365);
+        } else {
+            setCookie("theme", "white", 365);
+        }
+        setTimeout(() => {
+            location.reload();
+        }, 1000);
+    }
+    </script>
+    <script type="text/javascript" src="//www.termsfeed.com/public/cookie-consent/4.0.0/cookie-consent.js" charset="UTF-8"></script>
+    <script type="text/javascript" charset="UTF-8">
+    document.addEventListener('DOMContentLoaded', function () {
+    cookieconsent.run({"notice_banner_type":"interstitial","consent_type":"implied","palette":"light","language":"ro","page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],"notice_banner_reject_button_hide":false,"preferences_center_close_button_hide":false,"website_name":"SCYTE Technologies","open_preferences_center_selector":"#open_scyte","website_privacy_policy_url":"https://scyte.ro/terms"});
+    });
+    </script> 
+    <style type="text/css">.txt-rotate > .wrap { border-right: 0.08em solid #666 }</style></body></html>
+    
