@@ -6,168 +6,352 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>avenger.cloud | main</title>
-  <meta content="" name="descriptison">
+  <meta content="Un hebergeur de qualité" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/Local_Hosting.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="./assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="./assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="./assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="./assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="./assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="./assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="./assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <!-- Template Main CSS File -->
-  <link href="./assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-    <!-- =======================================================
-  * ThreadHost.de
-  * Edit-Author: EisLeis
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex align-items-center justify-content-between">
 
-  <!-- ======= Top Bar ======= -->
-  <section id="topbar" class="d-none d-lg-block">
-    <div class="container d-flex">
-      <div class="contact-info mr-auto"> 
-      </div>
-      <div class="social-links">
-      </div>
-    </div>
-  </section>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex align-items-center">
-
-      <div class="logo mr-auto">
-        <h1 class="text-light"><a href="index.html">Avenger<span> Technology</span></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <div class="logo">
+        <h1><a href="index.html"><span>Avenger Technology</span></a></h1>
       </div>
 
-      <nav class="nav-menu d-none d-lg-block">
+      <nav id="navbar" class="navbar">
         <ul>
-          <li class="active"><a href="#header">Home</a></li>
-          <li><a href="https://host.avenger.cloud/">Panel</a></li>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+         
+          <li class="dropdown"><a href="#"><span>Our Services</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+               
+              </li>
+              <li class="dropdown"><a href="services/vps.html"><span>VPS</span> <i class="bi bi-chevron-right"></i></a>
+                
+              </li>
+              <li class="dropdown"><a href="services/dedicated.html"><span>Dedicated</span> <i class="bi bi-chevron-right"></i></a>
+               
+              </li>
             </ul>
           </li>
-
+          <li class="dropdown"><a href="#"><span>Client Area</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="https://host.avenger.cloud/">Game Panel</a></li>
+              
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="https://discord.gg/Hamp3Q54gx">Contact</a></li>
         </ul>
-      </nav><!-- .nav-menu -->
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
 
     </div>
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
-    <div class="hero-container">
-      <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
 
-        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
+          <div data-aos="zoom-out">
+            <h1>Welcome to <span>Avenger Hosting</span></h1>
+            <h2>Here you will find everything you need to host your servers!</h2>
+            <div class="text-center text-lg-start">
+              <a href="#about" class="btn-get-started scrollto">Get Started!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
+          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
 
-        <div class="carousel-inner" role="listbox">
+    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 24 150 28 " preserveaspectratio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </path></defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+      </use></g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+      </use></g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+      </use></g>
+    </svg>
 
-          <!-- Slide 1 -->
-          <div class="carousel-item active" style="background-image: url(./assets/img/slide/slide-1.jpg);">
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">24/7 Free hosting. <span></span></h2>
-                <a href="https://discord.gg/56CWt8y9DR" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container-fluid">
+
+        <div class="row">
+          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="fade-right">
+            
+          </div>
+
+          <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
+            <h3>avenger.cloud | we provide quality</h3>
+            <p>Why choose us?            </p>
+
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon"><i class="bx bx-fingerprint"></i></div>
+              <h4 class="title"><a href="#about">Importance of customers</a></h4>
+              <p class="description">Our customers are our priority, in the event of a problem, our response time remains very fast.</p>
+            </div>
+
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
+              <div class="icon"><i class="bx bx-gift"></i></div>
+              <h4 class="title"><a href="#about">Performance</a></h4>
+              <p class="description">We are equipped with powerful equipment in order to sell quality products.</p>
+            </div>
+
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
+              <div class="icon"><i class="bx bx-atom"></i></div>
+              <h4 class="title"><a href="#about">Price</a></h4>
+              <p class="description">We try to put very low prices, and according to the quality/price ratio. We make very little profit, and this profit is used to improve our servers</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Features Section ======= -->
+    
+    
+    <!-- ======= Details Section ======= -->
+    <section id="details" class="details">
+      <div class="container">
+
+        <div class="row content">
+          <div class="col-md-4 order-1 order-md-2 aos-init aos-animate" data-aos="fade-left">
+            <img src="assets/img/details-1.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-8 pt-4" data-aos="fade-up">
+            <h3>What we can offer?            </h3>
+            <ul>
+              <li><i class="bi bi-check"></i> 99.9% Uptime</li>
+              <li><i class="bi bi-check"></i> 24/7 Fast Support</li>
+              <li><i class="bi bi-check"></i> Free Hosting</li>
+              <li><i class="bi bi-check"></i> Best Hardware</li>
+            </ul>
+          </div>
+        </div>
+
+
+
+    </div></section><!-- End Details Section -->
+
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>avenger</h2>
+          <p>Our services</p>
+        </div>
+
+        <div class="row" data-aos="fade-left">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="zoom-in" data-aos-delay="100">
+              <h3>VPS</h3>
+              <ul>
+              </ul>
+              <div class="btn-wrap">
+                <a href="services/vps.html" class="btn-buy">See all offers</a>
               </div>
             </div>
           </div>
 
-          <!-- Slide 2 -->
-          <div class="carousel-item" style="background-image: url(./assets/img/slide/slide-2.jpg);">
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">We offer the best hardware, I9-12900K</h2>
-                <a href="https://discord.gg/56CWt8y9DR" class="btn-get-started scrollto animate__animated animate__fadeInUp">More info</a>
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="box" data-aos="zoom-in" data-aos-delay="400">
+              <h3>Dedicated Servers</h3>
+              <ul>
+              </ul>
+              <div class="btn-wrap">
+                <a href="services/dedicated.html" class="btn-buy">See all offers</a>
               </div>
             </div>
           </div>
 
-          <!-- Slide 3 -->
-          <div class="carousel-item" style="background-image: url(./assets/img/slide/slide-3.jpg);">
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">Fast support</h2></p>
-                <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">More info</a>
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+            <div class="box" data-aos="zoom-in" data-aos-delay="200">
+              <h3>Discord</h3>
+              <ul>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">See all offers</a>
               </div>
             </div>
           </div>
 
         </div>
 
-        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon ri-arrow-left-line" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-
-        <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon ri-arrow-right-line" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-
       </div>
-    </div>
-  </section><!-- End Hero -->
+    </section><!-- End Pricing Section -->
 
-  <main id="main">
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services section-bg">
+
+    <!-- ======= Gallery Section ======= -->
+    
+    <!-- ======= Counts Section ======= -->
+
+
+    <!-- ======= Testimonials Section ======= -->
+    <!-- <section id="testimonials" class="testimonials">
       <div class="container">
 
+        <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
 
-        <div class="row">
-          <div class="col-md-6">
-            <div class="icon-box">
-              <i class="icofont-computer"></i>
-              <h4><a href="#">Fast Hardware</h4>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box">
-              <i class="icofont-chart-bar-graph"></i>
-              <h4><a href="#">99% Uptime Guarantee</a></h4>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box">
-              <i class="icofont-settings"></i>
-              <h4><a href="#">Anti DDoS Protection</a></h4>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box">
-              <i class="icofont-tasks-alt"></i>
-              <h4><a href="#">24/7 Amazing Support</a></h4>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
             </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+
           </div>
+          <div class="swiper-pagination"></div>
+        </div>
 
       </div>
-    </section><!-- End Services Section -->
+    </section> --> <!-- End Testimonials Section -->
 
     <!-- ======= Team Section ======= -->
+		
 
- 
 
+       
+    </div></section><!-- End F.A.Q Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Contact</h2>
+          <p>Contact Us</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Romania</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+				  <h4>Email:</h4>
+                <p><a href="mailto:contact@avenger.cloud">contact@avenger.cloud</a></p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-discord"></i>
+                <h4>Discord: </h4>
+                <p><a href="https://discord.gg/Hamp3Q54gx">https://discord.gg/Hamp3Q54gx</a></p>
+              </div>
+
+            </div>
+
+          </div>
+
+          
+     
+          </div>
+
+        </div>
+
+      
+    </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
 
@@ -177,34 +361,38 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-4 col-md-6">
             <div class="footer-info">
               <h3>avenger.cloud</h3>
               <p>
-                Str. Sirenei, 3B <br>
-                Turda Cluj 401001, ROMANIA<br><br>
-                <strong>Email:</strong> admin@avenger.cloud<br>
+                <strong>Discord: <a href="https://discord.gg/Hamp3Q54gx">https://discord.gg/Hamp3Q54gx</a></strong><br>
+                <strong>Email: <a href="mailto:contact@avenger.cloud">contact@avenger.cloud</a></strong><br>
               </p>
-              <div class="social-links mt-3">
-              </div>
+            
             </div>
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>RECHTLICH</h4>
+            <h4>Informations</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://discord.gg/56CWt8y9DR">Pricing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://discord.gg/56CWt8y9DR">Discord</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://avenger.cloud/tos">TOS</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#pricing">Services</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Our services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Discord</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="services/vps.html">VPS</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="services/dedicated.html">Dedicated Servers</a></li>
             </ul>
           </div>
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>NEWS UPDATES</h4>
-            <p>Subscribe to our newsletter.</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
+            <h4>George Serrestly SRL</h4>
+			  <p>Str. Sirenei, 3B Turda Cluj 401001, <strong>ROMANIA</strong></p>
+           
 
           </div>
 
@@ -214,29 +402,25 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>avenger.cloud</span></strong>. All Rights Reserved
+         Copyright &copy; avenger.cloud.<strong><span>All Rights Reserved        </span></strong>
       </div>
-      <div class="credits">
-      </div>
-    </div>
-  </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
-  <script src="./assets/vendor/jquery/jquery.min.js"></script>
-  <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="./assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="./assets/vendor/php-email-form/validate.js"></script>
-  <script src="./assets/vendor/jquery-sticky/jquery.sticky.js"></script>
-  <script src="./assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="./assets/vendor/counterup/counterup.min.js"></script>
-  <script src="./assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="./assets/vendor/venobox/venobox.min.js"></script>
-  <script src="./assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<!-- TrustBox script -->
+<script type="text/javascript" src="bootstrap/v5/tp.widget.bootstrap.min.js" async=""></script>
+<!-- End TrustBox script -->
 
   <!-- Template Main JS File -->
-  <script src="./assets/js/main.js"></script>
+  <script src="assets/js/main.js"></script>
 
 </body>
 
